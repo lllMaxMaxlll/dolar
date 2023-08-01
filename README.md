@@ -31,6 +31,7 @@ Creamos el enlace global del paquete, para ser accesible desde cualquier sitio d
 npm link
 ```
 
+
 ## Uso
 Abre una terminal.
 
@@ -43,6 +44,11 @@ dolar
 Esto te mostrará el precio actual del Dolar Oficial, Dolar Blue y el Dolar Turista (Oficial + %75 Impuestos).
 
 ![Select C__Windows_system32_cmd exe  1_8_2023 09_13_09](https://github.com/lllMaxMaxlll/dolar/assets/102885256/1cd205e2-c381-4342-9198-c66b3562f38a)
+
+### *Para quitar el enlace global del paquete, ejecutar el siguiente comando en el root de la app:*
+```
+npm unlink
+```
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras algún problema o tienes una mejora que proponer, por favor crea un issue o envía un pull request.
