@@ -16,7 +16,7 @@ export const consultar = {
 
 				condicion.some((cond) => {
 					if (nombre.includes(cond)) {
-						output += `\n${chalk.cyan.underline(nombre)}\nCompra: ${chalk.red(compra)} | Venta: ${chalk.green(venta)}\n`;
+						output += `\n${chalk.cyan.underline(nombre.toUpperCase())}\nCompra: ${chalk.red(compra)} | Venta: ${chalk.green(venta)}\n`;
 					}
 				});
 			});
