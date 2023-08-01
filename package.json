@@ -1,0 +1,18 @@
+{
+	"name": "dolar",
+	"version": "1.0.0",
+	"description": "CLI para consultar precio del dolar en Argentina",
+	"main": "index.js",
+	"type": "module",
+	"bin": "./bin/dolar.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Max Herr",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.4.0",
+		"chalk": "^5.3.0",
+		"commander": "^11.0.0"
+	}
+}
