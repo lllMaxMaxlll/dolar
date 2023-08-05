@@ -26,7 +26,7 @@ Instala las dependencias del proyecto:
 npm install
 ```
 
-Creamos el enlace global del paquete, para ser accesible desde cualquier sitio del sistema **(en Windows con CMD o Git Bash, no funciona con Powershell)**:
+Creamos el enlace global del paquete, para ser accesible desde cualquier sitio del sistema **(en Windows con CMD / Git Bash, no funciona con Powershell ; Linux / Mac anteponer sudo)**:
 ```
 npm link
 ```
